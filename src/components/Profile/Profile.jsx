@@ -3,31 +3,31 @@ import styles from '../Profile/Profile.module.css';
 
 console.log(styles);
 export const Profile = ({username,tag,location,avatar,stats}) => {
+  console.log(avatar);
     return (
-        <div class="profile">
-        <div class="description">
+        <div class={styles.profile}>
+        <div class={styles.description}>
           <img
             src={avatar}
             alt="User avatar"
-            class="avatar"
+            class={styles.avatar}
           />
-          <p class="name">{username}</p>
-          <p class="tag">{tag}</p>
-          <p class="location">{location}</p>
-        </div>
-      
-        <ul class="stats">
-          <li>
-            <span class="label">{stats.followers}</span>
-            <span class="quantity">{stats.amount_followers}</span>
+          <p className={styles.name}>{username}</p>
+          <p class={styles.tag}>{tag}</p>
+          <p class={styles.location}>{location}</p>
+        </div>      
+        <ul class={styles.stats}>
+          <li class={styles.stat}>
+            <span class={styles.label}>{stats.followers}</span>
+            <span class={styles.quantity}>{stats.amount_followers}</span>
           </li>
-          <li>
-            <span class="label">{stats.views}</span>
-            <span class="quantity">{stats.amount_views}</span>
+          <li class={styles.stat}>
+            <span class={styles.label}>{stats.views}</span>
+            <span class={styles.quantity}>{stats.amount_views}</span>
           </li>
-          <li>
-            <span class="label">{stats.likes}</span>
-            <span class="quantity">{stats.amount_likes}</span>
+          <li class={styles.stat}>
+            <span class={styles.label}>{stats.likes}</span>
+            <span class={styles.quantity}>{stats.amount_likes}</span>
           </li>
         </ul>
       </div>
