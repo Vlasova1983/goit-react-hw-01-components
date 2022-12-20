@@ -1,18 +1,18 @@
 [
     { "name":"Mango",
-    "avatar":"'https://cdn-icons-png.flaticon.com/512/1077/1077012.png'",
+    "avatar":"https://cdn-icons-png.flaticon.com/512/1077/1077012.png",
     "isOnline": true
     },
     {"name":"Kivi",
-    "avatar":"'https://cdn-icons-png.flaticon.com/512/1077/1077012.png'",
+    "avatar":"https://cdn-icons-png.flaticon.com/512/1077/1077012.png",
     "isOnline": true
     },
     {"name":"Ajex",
-    "avatar":"'https://cdn-icons-png.flaticon.com/512/1077/1077012.png'",
+    "avatar":"https://cdn-icons-png.flaticon.com/512/1077/1077012.png",
     "isOnline": false
     },
     {"name":"Poly",
-    "avatar":"'https://cdn-icons-png.flaticon.com/512/1077/1077012.png'",
+    "avatar":"https://cdn-icons-png.flaticon.com/512/1077/1077012.png",
     "isOnline": true
     }
 ]
