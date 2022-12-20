@@ -1,15 +1,15 @@
 {
     "username":"Petra Marica",
     "tag":"@pmarica",
-    "avatar":"'https://cdn-icons-png.flaticon.com/512/1077/1077012.png'",
+    "avatar":"https://cdn-icons-png.flaticon.com/512/1077/1077012.png",
     "location":"Salvador, Brasil",
     "stats":{
         "followers": "Followers",
-        "amount_followers":"1000",
+        "amount_followers":"196",
         "views": "Views",
-        "amount_views":"1000",
+        "amount_views":"3,685",
         "likes": "Likes",
-        "amount_likes":"1000"
+        "amount_likes":"492"
     }
     
 }
