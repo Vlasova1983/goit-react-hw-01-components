@@ -1,0 +1,20 @@
+[
+    {   "name":"Mango",
+        "avatar":"'https://cdn-icons-png.flaticon.com/512/1077/1077012.png'"
+    },
+    {"name":"Kivi",
+    "avatar":"'https://cdn-icons-png.flaticon.com/512/1077/1077012.png'"
+    },
+    {"name":"Ajex",
+    "avatar":"'https://cdn-icons-png.flaticon.com/512/1077/1077012.png'"
+    },
+    {"name":"Poly",
+    "avatar":"'https://cdn-icons-png.flaticon.com/512/1077/1077012.png'"
+    }
+]
+   
+
+// [
+//     {"id":"", "type":"invoce","amount":"125.00","currency":"USD"},
+//     {"id":"", "type":"Deposit", "amount":"130.10","currency":"BWP"}
+// ]
