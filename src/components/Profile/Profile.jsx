@@ -29,3 +29,21 @@ export const Profile = ({username,tag,location,avatar,stats}) => {
       </div>
     );
   };
+
+
+  // Profile.propTypes = {    // 
+  // username: PropTypes.string.isRequired,
+  // tag: PropTypes.string.isRequired,
+  // avatar: PropTypes.string.isRequired,
+  // location: PropTypes.string.isRequired,
+
+    //     friends: PropTypes.arrayOf(
+    //         PropTypes.shape({            
+    //             followers: PropTypes.string.isRequired,
+    //             amount_followers: PropTypes.string.isRequired
+    //             views: PropTypes.string.isRequired,
+    //             amount_views: PropTypes.string.isRequired, 
+    //             likes: PropTypes.string.isRequired,
+    //             amount_likes: PropTypes.string.isRequired
+    //         }))
+    // }
