@@ -1,6 +1,6 @@
 [
-    {"id":"", "type":"invoce","amount":"125.00","currency":"USD"},
-    {"id":"", "type":"Deposit", "amount":"130.10","currency":"BWP"}
+    {"id":"44dca67a-8e5a-4798-bf8e-b15efd4e1abd", "type":"invoce","amount":"125.00","currency":"USD"},
+    {"id":"ea8ed3dc-2b68-4a53-905a-53ecb0adef33", "type":"Deposit", "amount":"130.10","currency":"BWP"}
 ]
    
 
