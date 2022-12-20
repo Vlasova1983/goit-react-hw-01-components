@@ -5,29 +5,29 @@ console.log(styles);
 export const Profile = ({username,tag,location,avatar,stats}) => {
   console.log(avatar);
     return (
-        <div class={styles.profile}>
-        <div class={styles.description}>
+        <div className={styles.profile}>
+        <div className={styles.description}>
           <img
             src={avatar}
             alt="User avatar"
-            class={styles.avatar}
+            className={styles.avatar}
           />
           <p className={styles.name}>{username}</p>
-          <p class={styles.tag}>{tag}</p>
-          <p class={styles.location}>{location}</p>
+          <p>{tag}</p>
+          <p>{location}</p>
         </div>      
-        <ul class={styles.stats}>
-          <li class={styles.stat}>
-            <span class={styles.label}>{stats.followers}</span>
-            <span class={styles.quantity}>{stats.amount_followers}</span>
+        <ul className={styles.stats}>
+          <li className={styles.stat}>
+            <span>{stats.followers}</span>
+            <span className={styles.quantity}>{stats.amount_followers}</span>
           </li>
-          <li class={styles.stat}>
-            <span class={styles.label}>{stats.views}</span>
-            <span class={styles.quantity}>{stats.amount_views}</span>
+          <li className={styles.stat}>
+            <span>{stats.views}</span>
+            <span className={styles.quantity}>{stats.amount_views}</span>
           </li>
-          <li class={styles.stat}>
-            <span class={styles.label}>{stats.likes}</span>
-            <span class={styles.quantity}>{stats.amount_likes}</span>
+          <li className={styles.stat}>
+            <span>{stats.likes}</span>
+            <span className={styles.quantity}>{stats.amount_likes}</span>
           </li>
         </ul>
       </div>
