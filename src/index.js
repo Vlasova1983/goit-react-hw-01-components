@@ -11,7 +11,7 @@ import {TransactionHistory} from './components/TransactionHistory/TransactionHis
 import user from './path/user.json';
 import data from './path/data.json';
 import friends from './path/friends.json';
-// import transactions from './path/transactions.json';
+import transactions from './path/transactions.json';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -35,3 +35,4 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 //     <App />
 //   </React.StrictMode>
 // );
+
