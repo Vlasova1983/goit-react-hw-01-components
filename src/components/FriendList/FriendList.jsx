@@ -14,3 +14,12 @@ export const FriendList = ({friends}) => {
         </ul>
     );
 };
+
+
+// FriendList.propTypes = {    //     
+    //     friends: PropTypes.arrayOf(
+    //         PropTypes.shape({            
+    //             name: PropTypes.string.isRequired,
+    //             avatar: PropTypes.string.isRequired
+    //         }))
+    // }
