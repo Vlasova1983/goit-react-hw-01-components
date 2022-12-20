@@ -1,13 +1,9 @@
-{
-    "title":"",
-    "statistics":{
-        "docx":".docx",
-        "amount_docx":"4%",
-        "pdf":".pdf",
-        "amount_pdf":"41%",
-        "mp3":".mp3",
-        "amount_mp3":"14%",
-        "mp4":".mp4", 
-        "amount_mp4":"12%" 
-    }       
-}
+[
+    {"name":".docx","amount":"4%"},
+    {"name":".pdf","amount":"41%"},
+    {"name":".mp3","amount":"14%"},
+    {"name":".mp4","amount":"12%"}
+]
+    
+    
+       
