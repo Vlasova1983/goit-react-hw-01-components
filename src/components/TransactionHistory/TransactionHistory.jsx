@@ -1,11 +1,9 @@
+import PropTypes from "prop-types";
+import './TransactionHistory';
+
 export const TransactionHistory = ({items}) => {
     return (
-        <table 
-        class="transaction-history"
-        style={{            
-            backgroundColor: "gray"            
-          }}
-        >
+        <table  class="transaction-history">
             <thead>
                 <tr>
                     <th>Type</th>
@@ -28,11 +26,12 @@ export const TransactionHistory = ({items}) => {
     );
 };
 
-// TransactionHistory.propTypes = {
-//    items: PropTypes.arrayOf(
-//         PropTypes.shape({
-    //         id: PropTypes.string.isRequired,
-//             type: PropTypes.string.isRequired,
-//             amount: PropTypes.string.isRequired
-//         }))
-// }
+TransactionHistory.propTypes = {
+   items: PropTypes.arrayOf(
+        PropTypes.shape({
+            id: PropTypes.string.isRequired,
+            type: PropTypes.string.isRequired,
+            amount: PropTypes.string.isRequired
+        })
+    )
+}
