@@ -40,7 +40,7 @@ Profile.propTypes = {    //
   tag: PropTypes.string.isRequired,
   avatar: PropTypes.string.isRequired,
   location: PropTypes.string.isRequired,
-  friends: PropTypes.arrayOf(
+  stats: PropTypes.arrayOf(
     PropTypes.shape({            
       followers: PropTypes.string.isRequired,
       amount_followers: PropTypes.string.isRequired,
